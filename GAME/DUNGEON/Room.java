@@ -8,8 +8,17 @@ public class Room {
     //rooms might have an exit
     //rooms could have items 
     //rooms could have enemies to fight
-    public Room()
+    private int roomNumber;
+    
+    
+    
+    public Room(int roomNumber)
     {
-        
+        roomNumber = this.roomNumber;
+    }
+    
+    public int getRoomNumber(Room r)
+    {
+        return r.roomNumber;
     }
 }
